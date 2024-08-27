@@ -293,10 +293,10 @@ function getPassword()
       name = name + i.toString();
     }
 
-    if (i%100000==0)
-    {
+    //if (i%100000==0)
+    //{
       console.log(i+"/99999999");
-    }
+    //}
     var result = hex_md5(name);
     if (result=="df04990b965c2d770710ae1acdb29e27")
     {
